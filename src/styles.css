@@ -135,9 +135,25 @@ a:hover {
 }
 
 input {
+  font-size: 16px;
+  box-sizing: border-box;
   width: 15vw;
-  height: 20px;
   outline: none;
+  padding: 1% 2% 1% 2%;
+  border: 1px solid black;
+}
+input:focus {
+  border: 1px solid blue;
+}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input::-moz-placeholder {
+  letter-spacing: 2px;
+}
+input::placeholder {
+  letter-spacing: 2px;
 }
 
 label {
