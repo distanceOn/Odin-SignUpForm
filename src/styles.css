@@ -15,6 +15,15 @@ a:hover {
   color: yellow;
 }
 
+.error {
+  border: 1px solid red;
+}
+
+.success {
+  font-size: 18px;
+  color: green;
+}
+
 .container {
   display: flex;
 }
