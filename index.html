@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="bg">
+        <div class="bg__title">
+          <img
+            src="./static/imgs/odin-lined.png"
+            alt="Odin"
+            class="bg__title-img"
+          />
+          <span class="bg__title-title">ODIN</span>
+        </div>
+        <div class="bg__author">
+          Photo by
+          <a href="https://unsplash.com/@j_mk18" target="_blank">Jon</a> on
+          <a href="https://unsplash.com/photos/r8AFUpRp0J0" target="_blank"
+            >Unsplash</a
+          >
+        </div>
+      </section>
+      <main class="main">
+        <h1 class="main__h1">
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. <br />
+          Sign up now to get started. <br />
+          <br />
+          You know you want to.
+        </h1>
+        <div class="main__container">
+          <form action="#" class="main__form form">
+            <div class="main__form-inputs">
+              <fieldset class="form__all">
+                <legend class="form__name">Let`s do this!</legend>
+                <fieldset class="form__user-names form__fieldset">
+                  <div class="form__containers">
+                    <label for="firstname" class="form__label"
+                      >FIRST NAME</label
+                    >
+                    <input type="text" class="form__firstname" id="firstname" />
+                  </div>
+                  <div class="form__containers">
+                    <label for="lastname" class="form__label">LAST NAME</label>
+                    <input type="text" class="form__lastname" id="lasttname" />
+                  </div>
+                </fieldset>
+                <fieldset class="form__email-and-phone form__fieldset">
+                  <div class="form__containers">
+                    <label for="email" class="form__label">EMAIL</label>
+                    <input type="email" name="email" id="email" />
+                  </div>
+                  <div class="form__containers">
+                    <label for="number" class="form__label">PHONE NUMBER</label>
+                    <input type="number" name="number" id="number" />
+                  </div>
+                </fieldset>
+                <fieldset class="form__passes form__fieldset">
+                  <div class="form__containers">
+                    <label for="password" class="form__label">PASSWORD</label>
+                    <input type="password" name="pass" id="password" />
+                  </div>
+                  <div class="form__containers">
+                    <label for="confirm" class="form__label"
+                      >CONFIRM PASSWORD</label
+                    >
+                    <input type="password" name="confirm" id="confirm" />
+                  </div>
+                </fieldset>
+              </fieldset>
+            </div>
+            <div class="main__form-button">
+              <button type="submit" class="form__button">Create Account</button>
+            </div>
+          </form>
+        </div>
+        <div class="main__entry">
+          <h3 class="main__entry-h3">Already have an account?</h3>
+          <a href="#" class="main__entry-link">Log in</a>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
